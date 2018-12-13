@@ -11,6 +11,7 @@ class AdminTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        \App\Models\Admin::firstOrNew([
+                                          'username'=>'15163640385'])->fill(['password'=>bcrypt('admin888')])->save();
     }
 }

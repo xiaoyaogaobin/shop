@@ -1,4 +1,4 @@
-<nav class="navbar-default navbar-static-side" role="navigation">
+<nav class="navbar-default navbar-static-side" role="navigation" style="  background-color: #2f4050!important;">
     <div class="nav-close"><i class="fa fa-times-circle"></i>
     </div>
     <div class="sidebar-collapse">
@@ -37,10 +37,10 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a class="J_menuItem" href="index_v1.html" data-index="0">栏目管理</a>
+                        <a  href="{{route('admin.category.index')}}" data-index="0">栏目管理</a>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="index_v2.html">商品管理</a>
+                        <a data-index="0" href="{{route('admin.goods.index')}}">商品管理</a>
                     </li>
 
                 </ul>

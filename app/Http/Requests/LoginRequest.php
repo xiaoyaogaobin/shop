@@ -13,7 +13,7 @@ class LoginRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -25,6 +25,17 @@ class LoginRequest extends FormRequest
     {
         return [
             //
+            'username' =>'required',
+            'password' =>'required'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            //
+            'username.required' =>'手机号不能为空',
+            'password.required' =>'密码无能为空'
         ];
     }
 }

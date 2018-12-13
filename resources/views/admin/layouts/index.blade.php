@@ -14,48 +14,36 @@
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html" />
     <![endif]-->
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="favicon.ico">
     <link href="{{asset('org/admin/css')}}/bootstrap.min.css?v=3.3.6" rel="stylesheet">
     <link href="{{asset('org/admin/css')}}/font-awesome.min.css?v=4.4.0" rel="stylesheet">
-    <link href="{{asset('org/admin')}}/animate.css" rel="stylesheet">
+    <link href="{{asset('org/admin')}}/css/animate.css" rel="stylesheet">
     <link href="{{asset('org/admin/css')}}/style.css?v=4.1.0" rel="stylesheet">
+    <link href="{{asset('org/layui/css/layui.css')}}" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{asset('org/layui/layui.js')}}"></script>
+    @stack('css')
+    <script>
+        $(function () {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+        })
+    </script>
 </head>
 
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
-<div id="wrapper">
+<div id="wrapper" style="background-color: #f3f3f4 !important;">
     <!--左侧导航开始-->
    @include('admin.layouts.nav')
     <!--左侧导航结束-->
     <!--右侧部分开始-->
     <div id="page-wrapper" class="gray-bg dashbard-1">
         @include('admin.layouts.header')
-        <div class="row content-tabs">
-            <button class="roll-nav roll-left J_tabLeft"><i class="fa fa-backward"></i>
-            </button>
-            <nav class="page-tabs J_menuTabs">
-                <div class="page-tabs-content">
-                    <a href="javascript:;" class="active J_menuTab" data-id="index_v1.html">首页</a>
-                </div>
-            </nav>
-            <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
-            </button>
-            <div class="btn-group roll-nav roll-right">
-                <button class="dropdown J_tabClose" data-toggle="dropdown">关闭操作<span class="caret"></span>
 
-                </button>
-                <ul role="menu" class="dropdown-menu dropdown-menu-right">
-                    <li class="J_tabShowActive"><a>定位当前选项卡</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="J_tabCloseAll"><a>关闭全部选项卡</a>
-                    </li>
-                    <li class="J_tabCloseOther"><a>关闭其他选项卡</a>
-                    </li>
-                </ul>
-            </div>
-            <a href="{{asset(route('admin.loginout'))}}" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
-        </div>
 
         @yield('content')
 
@@ -385,6 +373,7 @@
 
 
 <!-- 全局js -->
+@stack('js')
 <script src="{{asset('org/admin/js')}}/jquery.min.js?v=2.1.4"></script>
 <script src="{{asset('org/admin/js')}}/bootstrap.min.js?v=3.3.6"></script>
 <script src="{{asset('org/admin/js')}}/plugins/metisMenu/jquery.metisMenu.js"></script>

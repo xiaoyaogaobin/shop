@@ -2,497 +2,145 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339da9f7-878f-41dd-9dd7-d920a631d53c" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AuthAdminMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2018_12_11_074212_create_admins_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/AdminTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/bootstrap-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/demo/webuploader-demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/patterns/header-profile-skin-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/patterns/header-profile-skin-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/patterns/header-profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/patterns/shattered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/css/blueimp-gallery-indicator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/css/blueimp-gallery-video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/css/blueimp-gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/css/blueimp-gallery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/play-pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/video-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/chosen/chosen-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/chosen/chosen-sprite@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/chosen/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/codemirror/ambiance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/cropper/cropper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/datapicker/datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/dropzone/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/dropzone/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/duallistbox/bootstrap-duallistbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/footable/fonts/footable.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/footable/fonts/footable.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/footable/fonts/footable.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/footable/fonts/footable.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/footable/footable.core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/iCheck/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/iCheck/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/iCheck/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/images/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/images/spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/images/spritemap@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jasny/jasny-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jsTree/32px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jsTree/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/jsTree/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/markdown/bootstrap-markdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/multiselect/bootstrap-multiselect.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/plyr/plyr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/plyr/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/simditor/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/steps/jquery.steps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/summernote/summernote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/switchery/switchery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/toastr/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/plugins/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/img/a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/contabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/bootstrap-table-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/bootstrap_table_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/bootstrap_table_test2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/echarts-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/flot-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/form-advanced-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/form-validate-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/layer-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/morris-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/peity-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/photos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/rickshaw-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/sparkline-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/table_base.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/treeview-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/demo/webuploader-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/hplus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/jquery-ui-1.10.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/jquery-ui.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/beautifyhtml/beautifyhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/chartJs/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/apl/apl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/apl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/asterisk/asterisk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/asterisk/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/clike/clike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/clike/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/clike/scala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/clojure/clojure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/clojure/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/cobol/cobol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/cobol/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/coffeescript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/commonlisp/commonlisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/commonlisp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/less.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/less_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/scss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/scss_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/css/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/cypher/cypher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/cypher/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/d/d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/d/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dart/dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/diff/diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/diff/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/django/django.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/django/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dockerfile/dockerfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dockerfile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dtd/dtd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dtd/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dylan/dylan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/dylan/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ebnf/ebnf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ebnf/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ecl/ecl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ecl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/eiffel/eiffel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/eiffel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/erlang/erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/erlang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/fortran/fortran.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/fortran/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gas/gas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gfm/gfm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gfm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gfm/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gherkin/gherkin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/gherkin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/go/go.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/go/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/groovy/groovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/groovy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haml/haml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haml/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haskell/haskell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haskell/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haxe/haxe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/haxe/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/htmlembedded/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/htmlmixed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/http/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/http/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/idl/idl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/idl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/jade/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/jade/jade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/javascript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/javascript/json-ld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/javascript/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/javascript/typescript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/jinja2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/jinja2/jinja2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/julia/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/julia/julia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/kotlin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/kotlin/kotlin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/livescript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/livescript/livescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/lua/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/lua/lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/markdown/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/markdown/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/markdown/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/mirc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/mirc/mirc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/mllike/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/mllike/mllike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/modelica/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/modelica/modelica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/nginx/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/nginx/nginx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ntriples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ntriples/ntriples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/octave/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/octave/octave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/pascal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/pascal/pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/pegjs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/pegjs/pegjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/perl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/perl/perl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/php/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/php/php.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/php/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/pig/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/pig/pig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/properties/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/properties/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/puppet/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/puppet/puppet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/python/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/python/python.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/q/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/q/q.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/r/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/r/r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rpm/changes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rpm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rpm/rpm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rst/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rst/rst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ruby/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ruby/ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/ruby/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rust/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/rust/rust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sass/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sass/sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/scheme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/scheme/scheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/shell/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/shell/shell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/shell/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sieve/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sieve/sieve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/slim/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/slim/slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/slim/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/smalltalk/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/smalltalk/smalltalk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/smarty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/smarty/smarty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/smartymixed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/smartymixed/smartymixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/solr/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/solr/solr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/soy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/soy/soy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sparql/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sparql/sparql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/spreadsheet/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/spreadsheet/spreadsheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sql/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/sql/sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/stex/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/stex/stex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/stex/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tcl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tcl/tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/textile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/textile/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/textile/textile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tiddlywiki/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tiki/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tiki/tiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tiki/tiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/toml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/toml/toml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tornado/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/tornado/tornado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/turtle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/turtle/turtle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/vb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/vb/vb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/vbscript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/vbscript/vbscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/velocity/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/velocity/velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/verilog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/verilog/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/verilog/verilog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/xml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/xml/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/xml/xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/xquery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/xquery/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/xquery/xquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/yaml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/yaml/yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/z80/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/codemirror/mode/z80/z80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/cropper/cropper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/dataTables/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/dataTables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/diff_match_patch/diff_match_patch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/easypiechart/jquery.easypiechart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/echarts/echarts-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/fancybox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/fancybox_loading@2x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/fancybox_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/fancybox_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/fancybox_sprite@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/curvedLines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/jquery.flot.spline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/footable/footable.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/fullcalendar/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/gritter/images/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jeditable/jquery.jeditable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jsTree/jstree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jsTree/jstree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/laydate/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/laydate/need/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/laydate/skins/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/laydate/skins/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/data/chatlog.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/data/friend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/data/group.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/data/groups.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/layim.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/layim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/layim/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/icon_ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/textbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/xubox_ico0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/xubox_loading0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/xubox_loading1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/xubox_loading2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/xubox_loading3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/default/xubox_title0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/moon/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/layer/skin/moon/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/markdown/bootstrap-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/markdown/bootstrap-markdown.zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/markdown/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/markdown/to-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/morris/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/morris/raphael-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/multiselect/bootstrap-multiselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/pace/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/plyr/plyr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/prettyfile/bootstrap-prettyfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/rickshaw/rickshaw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/rickshaw/vendor/d3.v3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/hotkeys.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/module.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/simditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/simditor/uploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/staps/jquery.steps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/suggest/bootstrap-suggest.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/suggest/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/summernote/summernote-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/summernote/summernote.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/switchery/switchery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/toastr/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/treeview/bootstrap-treeview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/validate/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/validate/messages_zh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.fis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.noimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.noimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.nolog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.nolog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/plugins/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/org/admin/js/welcome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/message.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/UploadException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/GoodsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Util/Upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Goods.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2018_12_12_053142_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2018_12_12_090026_create_goods_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/org/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/goods/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/goods/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/AuthAdminMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/AuthAdminMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2018_12_11_074212_create_admins_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_12_11_074212_create_admins_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AdminTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdminTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -500,7 +148,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
@@ -530,6 +178,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="shop: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shop: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="categories: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -537,38 +192,39 @@
     <session id="1940658303">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="admins" value="3" />
           <entry key="css" value="2" />
-          <entry key="env" value="3" />
+          <entry key="env" value="4" />
           <entry key="html" value="3" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="8" />
           <entry key="json" value="3" />
           <entry key="migrations" value="1" />
-          <entry key="php" value="90" />
+          <entry key="php" value="155" />
+          <entry key="png" value="1" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="3" />
-          <entry key="Blade" value="29" />
+          <entry key=".env file" value="4" />
+          <entry key="Blade" value="68" />
           <entry key="CSS" value="2" />
           <entry key="Database Element" value="4" />
           <entry key="HTML" value="3" />
-          <entry key="Image" value="2" />
+          <entry key="Image" value="3" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="8" />
-          <entry key="PHP" value="61" />
+          <entry key="PHP" value="87" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -576,17 +232,17 @@
         <counts>
           <entry key="env" value="14" />
           <entry key="html" value="4" />
-          <entry key="php" value="2130" />
-          <entry key="txt" value="251" />
+          <entry key="php" value="6183" />
+          <entry key="txt" value="495" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="14" />
-          <entry key="Blade" value="864" />
-          <entry key="HTML" value="4" />
-          <entry key="PHP" value="1266" />
-          <entry key="PLAIN_TEXT" value="251" />
+          <entry key="Blade" value="2794" />
+          <entry key="HTML" value="11" />
+          <entry key="PHP" value="3382" />
+          <entry key="PLAIN_TEXT" value="495" />
         </counts>
       </usages-collector>
     </session>
@@ -594,19 +250,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Util/Upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="307">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#45#80#0#PHP" expanded="true" />
+                <element signature="e#249#472#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/message.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/goods/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="-503">
+              <caret line="228" column="18" lean-forward="true" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+              <folding>
+                <element signature="e#9423#10315#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -628,6 +300,10 @@
       <find>foot</find>
       <find>消息</find>
       <find>主页</find>
+      <find>商城</find>
+      <find>J_menuItem</find>
+      <find>wrapper</find>
+      <find>增加</find>
     </findStrings>
     <replaceStrings>
       <replace>{{asset('amdin/js')}}</replace>
@@ -649,21 +325,21 @@
       <command text="artisan db:seed" />
       <command text="artisan make:middleware AuthAdminMiddleware" />
       <command text="artisan migrate" />
+      <command text="artisan make:model  --migration Models/Category" />
+      <command text="artisan make:controller --model=Models/Category  Admin/CategoryController" />
+      <command text="artisan migrate" />
+      <command text="artisan make:request CategoryRequest" />
+      <command text="artisan make:model --migration Modles/Goods" />
+      <command text="artisan make:model  --migration Models/Goods" />
+      <command text="artisan make:controller --model=Models/Goods Admin/GoodsController" />
+      <command text="artisan make:controller Util/Upload" />
+      <command text="artisan make:exception UploadException" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
@@ -686,23 +362,36 @@
         <option value="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_11_074212_create_admins_table.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/seeds/AdminTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/login/index.blade.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/app/Models/Admin.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/message.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/AuthAdminMiddleware.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_11_085745_add_remember_token_to_admins_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
         <option value="$USER_HOME$/Desktop/H+4.1最新完整无压缩源码/index_v3.html" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_12_12_053142_create_categories_table.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/category/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Category.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/goods/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/GoodsController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/UploadException.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Util/Upload.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/message.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/goods/create.blade.php" />
       </list>
     </option>
   </component>
@@ -815,11 +504,12 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/houdunwang/arr" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="43" />
+    <option name="x" value="130" />
+    <option name="y" value="69" />
     <option name="width" value="1680" />
     <option name="height" value="953" />
   </component>
@@ -858,7 +548,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -869,38 +558,25 @@
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/routes/web.php&#10;lo&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/app/Http/Controllers/Admin/LoginController.php" />
+    <property name="SearchEverywhereHistoryKey" value="we&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/routes/web.php&#10;web&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/routes/web.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/app/Models/Category.php&#10;NA&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/resources/views/admin/layouts/nav.blade.php&#10;good&#9;null&#9;null&#10;na&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/resources/views/admin/layouts/nav.blade.php&#10;inde&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/resources/views/admin/category/index.blade.php&#10;Cate&#9;null&#9;null&#10;C&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/app/Http/Controllers/Admin/CategoryController.php&#10;lo&#9;FILE&#9;file:///Applications/MAMP/htdocs/php/shop/app/Http/Controllers/Admin/LoginController.php" />
+    <property name="ToolWindowCommand Line Tools Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -910,15 +586,18 @@
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/org/admin/img" />
-      <recent name="$PROJECT_DIR$/public/amdin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/org/admin/img" />
       <recent name="$PROJECT_DIR$/public/org" />
       <recent name="$PROJECT_DIR$/resources/views/admin/index" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/org" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/goods" />
+      <recent name="$PROJECT_DIR$/resources/views/admin/category" />
+      <recent name="$PROJECT_DIR$/public/org/admin/img" />
+      <recent name="$PROJECT_DIR$/public/amdin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -945,11 +624,12 @@
       <updated>1544443916068</updated>
       <workItem from="1544443917286" duration="702000" />
       <workItem from="1544489738645" duration="19346000" />
+      <workItem from="1544574863581" duration="26302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20048000" />
+    <option name="totallyTimeSpent" value="46350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -961,12 +641,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="43" width="1680" height="953" extended-state="0" />
+    <frame x="130" y="69" width="1680" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1892552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3293556" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -980,11 +660,35 @@
       <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.3293556" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293556" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3293556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293556" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3293556" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.3293556" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293556" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3293556" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -993,90 +697,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/IdeHelperServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/css/demo/webuploader-demo.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/107/H+4.1最新完整无压缩源码/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="923" column="38" selection-start-line="923" selection-start-column="38" selection-end-line="923" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1503" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/H+4.1最新完整无压缩源码/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="917" lean-forward="true" selection-start-line="917" selection-end-line="930" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/photos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/flot-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/layer-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/peity-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/morris-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/echarts-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/table_base.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/rickshaw-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/treeview-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/js/demo/sparkline-demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/org/admin/img/a1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/LoginRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/dd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/dd.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_11_074212_create_admins_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1087,20 +708,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7928cb65-c5e7-4eb1-ae94-73833ccf4919/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7928cb65-c5e7-4eb1-ae94-73833ccf4919/schema/shop/table/migrations">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://7928cb65-c5e7-4eb1-ae94-73833ccf4919/schema/shop/table/migrations" />
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1132,34 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/message.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-          <folding>
-            <element signature="e#28#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/login/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1187,20 +771,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7928cb65-c5e7-4eb1-ae94-73833ccf4919/schema/shop/table/admins">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://7928cb65-c5e7-4eb1-ae94-73833ccf4919/schema/shop/table/admins" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#46#67#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,16 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3400">
           <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,45 +822,218 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_12_053142_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="87" column="31" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/login/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="n#script#17;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#33#51#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        <state relative-caret-position="332">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2556">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="228">
+          <caret line="514" lean-forward="true" selection-start-line="514" selection-end-line="514" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravels/resources/views/layouts/message.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravels/resources/views/slide/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2069">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravels/resources/views/layouts/hdjs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="62" column="114" selection-start-line="62" selection-start-column="114" selection-end-line="62" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="51" />
           <folding>
-            <element signature="e#102#2651#0#HTML" />
-            <element signature="e#7569#7606#0#HTML" expanded="true" />
-            <element signature="e#7974#8011#0#HTML" expanded="true" />
-            <element signature="e#8372#8409#0#HTML" expanded="true" />
-            <element signature="e#8866#8903#0#HTML" expanded="true" />
-            <element signature="e#9272#9309#0#HTML" expanded="true" />
+            <element signature="e#46#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/goods/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state>
+          <caret column="110" selection-start-column="110" selection-end-column="110" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#30#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="571">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/image/9EeKjn4IXi4YawNw8FAJpqPl3SQQlLq261kVZia6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/UploadException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Util/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#45#80#0#PHP" expanded="true" />
+            <element signature="e#249#472#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/message.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/goods/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503">
+          <caret line="228" column="18" lean-forward="true" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="18" />
+          <folding>
+            <element signature="e#9423#10315#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -15,6 +15,10 @@ class AuthAdminMiddleware
      */
     public function handle($request, Closure $next)
     {
+        //验证是否登录后台
+        if ( !auth('admin')->check() ) {
+            return redirect()->route('admin.login');
+        }
         return $next($request);
     }
 }

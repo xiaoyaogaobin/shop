@@ -15,8 +15,10 @@ class CreateAdminsTable extends Migration
     {
         Schema::create('admins', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('username')->default('')->comment('后台管理员账号');
+            $table->string('password')->default('')->comment('后台管理员密码');
             $table->timestamps();
-        });
+        },'后台管理员表');
     }
 
     /**
