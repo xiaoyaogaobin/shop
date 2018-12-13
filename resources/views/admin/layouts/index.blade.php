@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
 
-    <title>欢迎您来到搜易网后台</title>
+    <title>欢迎您来到{{shop_config('website.site_name')}}后台</title>
 
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="{{shop_config('website.site_keywords')}}">
+    <meta name="description" content="{{shop_config('website.site_description')}}">
 
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html" />
@@ -36,6 +36,7 @@
 </head>
 
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+
 <div id="wrapper" style="background-color: #f3f3f4 !important;">
     <!--左侧导航开始-->
    @include('admin.layouts.nav')

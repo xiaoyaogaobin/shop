@@ -47,6 +47,18 @@
 
             </li>
             <li>
+                <a href="#"><i class="fa fa-cutlery"></i> <span class="nav-label">网站配置 </span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li><a  href="{{route('admin.config.create',['type'=>'website'])}}">站点配置</a></li>
+                    <li><a  href="{{route('admin.config.create',['type'=>'upload'])}}">上传配置</a></li>
+                    <li><a  href="{{route('admin.config.create',['type'=>'mysql'])}}">数据库配置</a></li>
+                    <li><a class="J_menuItem" href="form_builder.html">微信配置</a></li>
+
+                    <li><a class="J_menuItem" href="form_builder.html">手机配置</a></li>
+
+                </ul>
+            </li>
+            <li>
                 <a class="J_menuItem" href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span></a>
             </li>
             <li>
@@ -326,13 +338,7 @@
             <li>
                 <a class="J_menuItem" href="css_animation.html"><i class="fa fa-magic"></i> <span class="nav-label">CSS动画</span></a>
             </li>
-            <li>
-                <a href="#"><i class="fa fa-cutlery"></i> <span class="nav-label">工具 </span><span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-                    <li><a class="J_menuItem" href="form_builder.html">表单构建器</a>
-                    </li>
-                </ul>
-            </li>
+
 
         </ul>
     </div>

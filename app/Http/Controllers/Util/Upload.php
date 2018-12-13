@@ -13,6 +13,7 @@ class Upload extends Controller
 
 
         $file = $request->file('file');
+
         // 处理字节照片大小
         $this->checkSize($file);
         // 处理图片类型管理

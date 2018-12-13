@@ -38,46 +38,48 @@
                                     <th>商品图片</th>
                                     <th>商品价格</th>
                                     <th>添加时间</th>
-                                    <th>操作</th>
+                                    <th style="padding-left: 40px">操作</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-
+                                @foreach($goods as $good)
                                 <tr>
                                     <td class="project-status">
                                             1</td>
                                     <td class="project-title">
-                                        <a href="project_detail.html">@商品名称</a>
+                                        <a href="project_detail.html">{{$good->title}}</a>
                                         <br>
 
                                     </td>
                                     <td class="project-completion">
-                                        <small>@商品图片</small>
+                                        <small><img src="{{$good->list_pic}}" width="50px" height="40px"/> </small>
 
                                     </td>
                                     <td class="project-completion">
-                                        <small>@商品价格</small>
+                                        <small class="text-danger font-bold">{{$good->price}}元</small>
 
                                     </td>
                                     <td class="project-completion">
-                                        <small>@添加时间</small>
+                                        <small>{{$good->created_at->diffForHumans()}}</small>
 
                                     </td>
 
                                     <td class="project-actions">
-                                        <a href="" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 编辑 </a>
+                                        <a href="{{route('admin.goods.edit',$good)}}" class="btn btn-white btn-sm"><i class="fa fa-folder"></i> 编辑 </a>
                                         <a href="javascript:;" class="btn btn-white btn-sm" onclick="del(this)"><i class="fa fa-pencil"></i> 删除 </a>
-                                        <form method="post" action="" id="forms">
+                                        <form method="post" action="{{route('admin.goods.destroy',$good)}}" id="forms">
                                             @csrf @method('DELETE')
 
                                         </form>
                                     </td>
                                 </tr>
 
-
+                                @endforeach
                                 </tbody>
                             </table>
+
                         </div>
+                        {{$goods->links()}}
                     </div>
                 </div>
             </div>

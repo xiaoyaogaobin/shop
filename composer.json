@@ -12,6 +12,7 @@
         "barryvdh/laravel-ide-helper": "^2.5",
         "fideloper/proxy": "^4.0",
         "houdunwang/arr": "^2.0",
+        "houdunwang/laravel": "^1.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0"
     },
@@ -37,6 +38,9 @@
         "psr-4": {
             "App\\": "app/"
         },
+        "files": [
+            "app/Config/shop_config.php"
+        ],
         "classmap": [
             "database/seeds",
             "database/factories"
