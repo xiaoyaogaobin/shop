@@ -1,6 +1,6 @@
 <?php
 
-function shop_config($v){
+function shop_config($v,$default=''){
 //    echo $v;
     $info = explode('.',$v);
 //    dd($info);
@@ -13,5 +13,5 @@ function shop_config($v){
             return \App\Models\Config::pluck('data','name');
         });
     }
-    return $cache[$info[0]][$info[1]];
+    return $cache[$info[0]][$info[1]]??$default;
 }

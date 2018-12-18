@@ -26,7 +26,7 @@
 
                 </div>
                 <div class="ibox-content">
-                    <form method="post" class="form-horizontal" action="{{route('admin.goods.store')}}">
+                    <form method="post" class="form-horizontal layui-form" action="{{route('admin.goods.store')}}">
                         @csrf
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品名称</label>
@@ -37,11 +37,37 @@
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">商品价格</label>
+                            <label class="col-sm-2 control-label text-danger">打折商品价格</label>
+
+                            <div class="col-sm-10">
+                                <input type="number" value="{{old('oldgoods')}}" name="oldgoods" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">新商品价格</label>
 
                             <div class="col-sm-10">
                                 <input type="number" value="{{old('price')}}" name="price" class="form-control">
                             </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+
+                        {{--推荐商品到首页--}}
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">首页推荐</label>
+
+                            <div class="layui-input-block">
+                                <input type="radio" name="hot_id" value="1" title="推荐" checked="">
+                                <div class="layui-unselect layui-form-radio layui-form-radioed">
+                                    <i class="layui-anim layui-icon layui-anim-scaleSpring"></i><div>推荐</div>
+                                </div>
+                                <input type="radio" name="hot_id" value="0" title="不推荐">
+                                <div class="layui-unselect layui-form-radio"><i class="layui-anim layui-icon"></i><div>不推荐</div></div>
+                            </div>
+
                         </div>
 
                         <div class="hr-line-dashed"></div>
@@ -83,26 +109,17 @@
 
                         <div class="hr-line-dashed"></div>
                         {{--商品规格结束--}}
-                        <div class="form-group">
+                        <div class="layui-form-item form-group">
                             <label class="col-sm-2 control-label">商品分类</label>
+                            <div class=" col-sm-10">
+                                <select name="category_id" lay-filter="aihao">
+                                    <option value="0">顶级栏目</option>
+                                    @foreach($categorys as $category)
+                                        <option value="{{$category['id']}}">{!! $category['_name'] !!}</option>
+                                    @endforeach
 
-                            <div class="col-sm-10">
-                                <div class="input-group">
+                                </select>
 
-
-                                    <div class="input-group-btn">
-                                        <select name="category_id" class="form-control custom-select dropdown-toggle"
-                                                data-placeholder="Choose a Category" tabindex="1">
-                                            <option value="0">顶级栏目</option>
-                                            @foreach($categorys as $category)
-                                                <option value="{{$category['id']}}">{!! $category['_name'] !!}</option>
-                                            @endforeach
-
-                                        </select>
-
-
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -113,8 +130,13 @@
 
                             <div class="col-sm-10">
                                 <div class="layui-upload-drag" id="test10">
+                                    @if(old('list_pic'))
+                                        <img src="{{old('list_pic')}}" width="50px" height="50px">
+                                        <input name="list_pic" type="hidden" value="{{old('list_pic')}}">
+                                    @else
                                     <i class="layui-icon"></i>
                                     <p>点击上传，或将文件拖拽到此处</p>
+                                        @endif
                                 </div>
                             </div>
                         </div>
@@ -130,7 +152,19 @@
                                            multiple="">
                                     <blockquote class="layui-elem-quote layui-quote-nm" style="margin-top: 10px;">
                                         预览图：
-                                        <div class="layui-upload-list" id="demo2"></div>
+                                        <div class="layui-upload-list" id="demo2">
+                                            @if(old('pics'))
+                                            @foreach(old('pics') as $v)
+                                                <span  onclick="delImage(this)">
+                                                    <button class="layui-btn layui-btn-xs "  style="position: absolute;margin-left: 53px" type="button" >
+                                                        <i class="layui-icon"></i></button>
+                                                <img src={{$v}} width="80px" height="80px" name=" pics[]" >
+
+                                                <input type="hidden" value="{{$v}}" name="pics[]" >
+                                                </span>
+                                            @endforeach
+                                                @endif
+                                        </div>
                                     </blockquote>
                                 </div>
                             </div>
@@ -173,7 +207,11 @@
 @push('js')
     <script src="https://cdn.bootcss.com/vue/2.5.18-beta.0/vue.min.js"></script>
     <script>
-        layui.use(['upload', 'layedit'], function () {
+        function delImage(obj){
+
+            $(obj).remove();
+        }
+        layui.use(['upload','layedit'], function () {
             var $ = layui.jquery
                 , upload = layui.upload;
             var layedit = layui.layedit;
@@ -237,8 +275,10 @@
                 // }
                 , done: function (res) {
                     //上传完毕
-                    $('#demo2').append('<img src="' + res.data.src + '" alt="" width="50" height="50" class="layui-upload-img">' +
-                        '<input type="hidden" name="pics[]" value="' + res.data.src + '">'
+                    $('#demo2').append('<span  onclick="delImage(this)">\n' +
+                        '                                                    <button class="layui-btn layui-btn-xs "  style="position: absolute;margin-left: 53px" type="button" >\n' +
+                        '                                                        <i class="layui-icon"></i></button><img src="' + res.data.src + '" alt="" width="80" height="80" class="layui-upload-img">' +
+                        '<input type="hidden" name="pics[]" value="' + res.data.src+ '"></span>'
                     )
                 }
             });
@@ -248,7 +288,7 @@
             el:'#app',
             // 数据
             data:{
-            specs:[]
+            specs:{!! old('specs')??'[]' !!}
             },
             // 接受方法
             methods:{

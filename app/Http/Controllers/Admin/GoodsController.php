@@ -43,13 +43,17 @@ class GoodsController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+     * GoodsRequest
      */
-    public function store(GoodsRequest $request,Goods $goods)
+    public function store(Request $request,Goods $goods)
     {
+//        dd($request->all());
+        //开启事务
+        \DB::beginTransaction();
         //添加goods 商品
         $data = $request->all();
         $data['user_id']= auth('admin')->id();
-        $data['pics'] =json_encode($data['pics']);
+//        dd($data);
         $specs = json_decode ( $data['specs'] , true );
         $total = 0;
         foreach($specs as $v){
@@ -66,7 +70,7 @@ class GoodsController extends Controller
             $spec->goods_id = $goods_id->id;
             $spec->save();
         }
-
+        \DB::commit();// 关闭事务
         return redirect()->route('admin.goods.index')->with('success','商品添加成功');
 
 
@@ -84,8 +88,9 @@ class GoodsController extends Controller
     {
         //
 
+
         $goods = $good;
-        $goods['pics'] = json_decode($goods['pics'] , true);
+
         $data  = Category::all()->toArray();
         $categorys = $category->getCategory($data);
         $specs = Spec::where('goods_id',$goods['id'])->get();
@@ -107,7 +112,6 @@ class GoodsController extends Controller
         //添加goods 商品
         $data = $request->all();
         $data['user_id']= $good->user_id;
-        $data['pics'] =json_encode($data['pics']);
         $specs = json_decode ( $data['specs'] , true );
         $total = 0;
         foreach($specs as $v){

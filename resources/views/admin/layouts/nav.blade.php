@@ -54,12 +54,12 @@
                     <li><a  href="{{route('admin.config.create',['type'=>'mysql'])}}">数据库配置</a></li>
                     <li><a class="J_menuItem" href="form_builder.html">微信配置</a></li>
 
-                    <li><a class="J_menuItem" href="form_builder.html">手机配置</a></li>
+                    <li><a  href="{{route('admin.config.create',['type'=>'iphone'])}}">手机配置</a></li>
 
                 </ul>
             </li>
             <li>
-                <a class="J_menuItem" href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span></a>
+                <a  href="{{route('admin.slid.index')}}"><i class="fa fa-columns"></i> <span class="nav-label">轮播图</span></a>
             </li>
             <li>
                 <a href="#">

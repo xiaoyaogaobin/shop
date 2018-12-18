@@ -26,7 +26,7 @@
 
                 </div>
                 <div class="ibox-content">
-                    <form method="post" class="form-horizontal" action="{{route('admin.goods.update',$goods)}}">
+                    <form method="post" class="form-horizontal layui-form" action="{{route('admin.goods.update',$goods)}}">
                         @csrf @method('PUT')
                         <div class="form-group">
                             <label class="col-sm-2 control-label">商品名称</label>
@@ -37,11 +37,37 @@
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group">
+                            <label class="col-sm-2 control-label">打折商品价格</label>
+
+                            <div class="col-sm-10">
+                                <input type="number" value="{{old('oldgoods')}}" name="oldgoods" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
                             <label class="col-sm-2 control-label">商品价格</label>
 
                             <div class="col-sm-10">
                                 <input type="number" value="{{$goods['price']}}" name="price" class="form-control">
                             </div>
+                        </div>
+
+                        <div class="hr-line-dashed"></div>
+                        {{--首页推荐--}}
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">首页推荐</label>
+
+                            <div class="layui-input-block">
+                                <input type="radio" name="hot_id" value="1" title="推荐" @if($goods['hot_id'] == 1) checked @endif>
+                                <div class="layui-unselect layui-form-radio  ">
+                                    <i class="layui-anim layui-icon layui-anim-scaleSpring "  ></i><div>推荐</div>
+                                </div>
+                                <input type="radio" name="hot_id" value="0" title="不推荐" @if($goods['hot_id'] == 0) checked @endif>
+                                <div class="layui-unselect layui-form-radio ">
+                                    <i class="layui-anim layui-icon "  ></i><div>不推荐</div></div>
+                            </div>
+
                         </div>
 
                         <div class="hr-line-dashed"></div>

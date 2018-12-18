@@ -8,8 +8,8 @@
 
     <title>欢迎您来到{{shop_config('website.site_name')}}后台</title>
 
-    <meta name="keywords" content="{{shop_config('website.site_keywords')}}">
-    <meta name="description" content="{{shop_config('website.site_description')}}">
+    <meta name="keywords" content="{{shop_config('website.site_keywords')??''}}">
+    <meta name="description" content="{{shop_config('website.site_description')??''}}">
 
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html" />

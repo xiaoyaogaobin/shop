@@ -11,23 +11,24 @@ class ConfigController extends Controller
 
 
     //    加载模板页面
-    public function create($name){
-
-
+    public function create($name)
+    {
         $config = Config::firstOrNew(
-            ['name'=>$name]
+            ['name' => $name]
         );
-        return view('config.config_'.$name,compact('name','config'));
+        return view('config.config_' . $name,compact('name','config'));
 
     }
+
 //    执行数据添加更新
-    public function update($name,Request $request){
+    public function update($name,Request $request)
+    {
+//        dd($request->all());
 
         Config::updateOrCreate(
-            ['name'=>$name],
-            ['name'=>$name,'data'=>$request->all()]);
+            ['name' => $name],
+            ['name' => $name,'data' => $request->all()]);
         hd_edit_env($request->all());
-//        dd($request->all());
         return back()->with('success','更新配置成功');
 
     }

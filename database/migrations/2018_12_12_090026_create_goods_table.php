@@ -26,6 +26,7 @@ class CreateGoodsTable extends Migration
             $table->string('description',255)->default('')->comment('商品描述');
             $table->string('spec')->default('')->comment('商品名称');
             $table->integer('total')->default(0)->comment('商品库存');
+            $table->integer('hot_id')->default(0)->comment('首页推荐');
             $table->unsignedInteger  ('user_id')->index ()->default (0)->comment ('管理员 id');
             $table->text('content')->comment('商品详情');
             $table->timestamps();

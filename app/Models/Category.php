@@ -10,6 +10,7 @@ class Category extends Model
     protected $fillable = ['pid','name'
     ];
 
+
     //创建一个公共调用
     public function getCategory($data)
     {
@@ -45,4 +46,21 @@ class Category extends Model
         }
         return $shopSon;
     }
+
+    //创建一个递归处理自己的附近
+    public function getFather($data,$id)
+    {
+        static $temp = [];
+        foreach ( $data as $v )
+        {
+            if ( $v['id'] == $id )
+            {
+                $temp[] = $v;
+                $this->getFather ( $data , $v['pid'] );
+            }
+        }
+
+        return $temp;
+    }
+
 }

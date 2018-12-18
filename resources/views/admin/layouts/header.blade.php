@@ -89,6 +89,11 @@
                     <i class="fa fa-tasks"></i> 主题
                 </a>
             </li>
+            <li>
+                <a href="{{route('home')}}" target="_blank">
+                    <i class="fa fa-gear"></i> 首页
+                </a>
+            </li>
         </ul>
     </nav>
 </div>
